@@ -1,0 +1,184 @@
+
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: #333;
+}
+body b{
+    font-family: 'Rokkitt', serif;
+    font-size: 32px;
+    text-align: center;
+    color:#990000;
+}
+body textarea{
+    font-family: 'Rokkitt', serif;
+    font-size: 11px;
+    text-align: left;
+    padding-left: 8px;
+ }
+#main-container {
+  position: absolute;
+  width: 720px;
+  height: 90px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+}
+
+#exit {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.feature {
+  top: 10px;
+  left: 314px;
+  width: 92.44444444444444px;
+  height: 70px;
+  position: absolute;
+}
+#main-img-0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(dclk.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+:focus {
+  outline:none;
+}
+::-moz-focus-inner {
+  border:0;
+}
+
+/* assets */
+#car {
+  background-image: url(assets/car.png);
+  position: absolute;
+  width:136px;
+  height: 80px;
+  top:5px;
+  left:-130px;
+}
+#smartBtn {
+    background-image: url(assets/smart-logo.jpg);
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 640px;
+    width: 80px;
+    height:27px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 1000;
+ }
+#svg-mask-wrapper {
+    height:90px;
+    width:720px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    float: left;
+  }
+#ramp {
+    background-image: url(assets/ramp.png);
+    height:58px;
+    width:98px;
+    opacity:0;
+    position: absolute;
+    top:32px;
+     left:540px;
+}
+#sign {
+    background-image: url(assets/sign.png);
+    background-repeat: no-repeat;
+    height:38px;
+    width:39px;
+    opacity:0;
+    position: relative;
+    top:0px;
+    left:594px;
+}
+#safty {
+    background-image: url(assets/safty.png);
+    background-repeat: no-repeat;
+    height:76px;
+    width:128px;
+    position: absolute;
+    top:9px;
+    left:493px;
+    opacity:0;
+}
+
+#carAngle {
+  background-image: url(assets/pure_coupe_hero.png);
+  position: absolute;
+  width:115px;
+  height: 80px;
+  top:5px;
+  left:-150px;
+
+}
+#findBtn{
+  background-image: url(assets/findBtn.png);
+  position: absolute;
+  width:21px;
+  height: 21px;
+  top:37.3px;
+  left:522px;
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+   transform: scale(0, 0);
+    
+}
+#replayBtn{
+  background-image: url(assets/replaybtn.png);
+  position: absolute;
+  width:16px;
+  height:14px;
+  top:8px;
+  left:-17px;
+  cursor:pointer;
+  opacity: 0;
+  
+}
+/* Text */
+.textStyle {
+    font-family: 'Rokkitt', serif;
+    font-size: 32px;
+    text-align: center;
+    color: #666666;  
+    position: absolute;
+    left: 200px;
+    top: 10px; 
+    opacity: 0;
+}
+#theSkinny{
+    font-size: 11px;
+    text-align: right;
+    left: 660px;
+    top: 100px; 
+    color: #666666;  
+    opacity: 0;
+    cursor:pointer;
+}
+#text12{
+    left:-790px;
+    opacity: 1;
+}
+ 
+
+
